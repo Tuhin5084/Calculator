@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+
+        <div class="container d-flex justify-content-center align-items-center">
+            
+            <div class="main-calculator">               
+                <h3 class="text-center text-white"> <i class="fas fa-calculator"></i> Calculator</h3>
+                <div id="result">
+                    <div id="history">
+                        <p id="history-value"></p>
+                    </div>
+                    <div id="output">
+                        <p id="output-value"></p>
+                    </div>
+                </div>
+
+                <div class="keyboard">
+                    <button class = "operator bg-primary" id = "clear">C </button>
+					<button class = "operator bg-success" id = "backspace">CE </button>
+					<button class = "operator bg-secondary" id = "%"> % </button>
+					<button class = "operator bg-warning" id = "/"> &#247 </button>
+					<button class = "number" id = "7"> 7 </button>
+					<button class = "number" id = "8"> 8 </button>
+					<button class = "number" id = "9"> 9 </button>
+					<button class = "operator bg-info" id = "*"> &times </button>
+					<button class = "number" id = "4"> 4 </button>
+					<button class = "number" id = "5"> 5 </button>
+					<button class = "number" id = "6"> 6 </button>
+					<button class = "operator bg-danger" id = "+"> + </button>
+					<button class = "number" id = "1"> 1 </button>
+					<button class = "number" id = "2"> 2 </button>
+					<button class = "number" id = "3"> 3 </button>
+					<button class = "operator minus" id = "-"> - </button>					
+					<button class = "number equal" id = "0"> 0 </button>
+					<button class="operator equal bg-dark text-white" id = "="> = </button>
+
+
+                </div>
+            </div>
+        </div>
+
+   
+        <script src="calculator.js"></script>
+        
+    </body>
+</html>
